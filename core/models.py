@@ -24,3 +24,13 @@ class Service(models.Model):
 
     def __str__(self):
         return self.name
+
+# Recent Work Model
+
+
+class WorkExperience(models.Model):
+    title = models.CharField(max_length=100, verbose_name="Work title")
+    image = models.ImageField(upload_to="works")
+
+    def __str__(self):
+        return self.title
