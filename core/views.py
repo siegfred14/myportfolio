@@ -4,6 +4,9 @@ from django.shortcuts import render
 from .models import Contact
 from django.http import HttpResponse
 
+from django.core.mail import message, send_mail
+from django.conf import settings
+
 
 # class HomeTemplateView(TemplateView):
 #     template_name = 'home.html'
@@ -21,16 +24,28 @@ from django.http import HttpResponse
 
 def home(request):
     if request.method == "POST":
-        contact = Contact()
-        name = request.POST.get('name')
-        email = request.POST.get('email')
-        message = request.POST.get('message')
+        name = request.POST['name']
+        email = request.POST['email']
+        message = request.POST['message']
 
-        contact.name = name
-        contact.email = email
-        contact.message = message
+        send_mail('Contact Form',
+                  name,
+                  email,
+                  message,
+                  settings.EMAIL_HOST_USER,
+                  'thomasadigun@gmail.com',
+                  fail_silently=False
+                  )
+    #     contact = Contact()
+    #     name = request.POST.get('name')
+    #     email = request.POST.get('email')
+    #     message = request.POST.get('message')
 
-        contact.save()
-        return HttpResponse("<h1>Thanks For Contacting Me. You'll receive a feed back in 18hrs!</h1>")
+    #     contact.name = name
+    #     contact.email = email
+    #     contact.message = message
+
+    #     contact.save()
+    #     return HttpResponse("<h1>Thanks For Contacting Me. You'll receive a feed back in 18hrs!</h1>")
 
     return render(request, 'home.html')
