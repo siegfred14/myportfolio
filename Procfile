@@ -1,0 +1,1 @@
+web: gunicorn monresume.wsgi --log-file -
