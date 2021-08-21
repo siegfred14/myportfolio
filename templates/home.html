@@ -255,7 +255,8 @@
 
                     </form> -->
 
-                    <form class="" action="">
+                    <form class="" method="post" action="">
+                        {% csrf_token %}
                         <div class="form-group">
                         <label for="fname">Your Name</label>
                         <input type="text" name="name" id="fname" class="form-control" placeholder="Please Enter your name">
