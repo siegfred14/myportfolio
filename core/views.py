@@ -24,28 +24,28 @@ from django.conf import settings
 
 def home(request):
     if request.method == "POST":
-        name = request.POST['name']
-        email = request.POST['email']
-        message = request.POST['message']
+        #     name = request.POST['name']
+        #     email = request.POST['email']
+        #     message = request.POST['message']
 
-        send_mail('Contact Form',
-                  name,
-                  email,
-                  message,
-                  settings.EMAIL_HOST_USER,
-                  'thomasadigun@gmail.com',
-                  fail_silently=False
-                  )
-    #     contact = Contact()
-    #     name = request.POST.get('name')
-    #     email = request.POST.get('email')
-    #     message = request.POST.get('message')
+        #     send_mail('Contact Form',
+        #               name,
+        #               email,
+        #               message,
+        #               settings.EMAIL_HOST_USER,
+        #               'thomasadigun@gmail.com',
+        #               fail_silently=False
+        #               )
+        contact = Contact()
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        message = request.POST.get('message')
 
-    #     contact.name = name
-    #     contact.email = email
-    #     contact.message = message
+        contact.name = name
+        contact.email = email
+        contact.message = message
 
-    #     contact.save()
-    #     return HttpResponse("<h1>Thanks For Contacting Me. You'll receive a feed back in 18hrs!</h1>")
+        contact.save()
+        return HttpResponse("<h1>Thanks For Contacting Me. You'll receive a feed back in 18hrs!</h1>")
 
     return render(request, 'home.html')

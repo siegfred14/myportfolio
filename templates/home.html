@@ -213,7 +213,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box-contact-form">
 
-                    <form id="contact-form" method="post">
+                    <!-- <form id="contact-form" method="post">
                         {% csrf_token %}
                         <div class="messages"></div>
 
@@ -247,12 +247,27 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <!-- <button class="btn btn-send" value="">Send message</button> -->
+                                    <button class="btn btn-send" value="">Send message</button> 
                                     <input type="submit" class="btn btn-send" value="Send Mail">
                                 </div>
                             </div>
                         </div>
 
+                    </form> -->
+
+                    <form class="" action="">
+                        <div class="form-group">
+                        <label for="fname">Your Name</label>
+                        <input type="text" name="name" id="fname" class="form-control" placeholder="Please Enter your name">
+
+                        <label for="exampleInputEmail1">Your Email</label>
+                        <input class="form-control" type="email" name="email" id="exampleInputEmail1" placeholder="Please Enter your Email">
+
+                        <!-- <label for="subject">Message</label> -->
+                        <textarea name="message" cols="100" rows="5" id="subject" placeholder="Please Enter your message"></textarea>
+                        <br>
+                        <input type="submit" class="btn btn-success btn-lg mt-1 ml-4" value="Send Mail">
+                        </div>
                     </form>
 
                 </div>
