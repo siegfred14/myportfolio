@@ -24,6 +24,7 @@ from django.conf import settings
 
 def home(request):
     if request.method == "POST":
+        # For Email
         #     name = request.POST['name']
         #     email = request.POST['email']
         #     message = request.POST['message']
