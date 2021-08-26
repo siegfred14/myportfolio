@@ -28,6 +28,7 @@ DEBUG = False
 
 # EMAIL_HOST = 'smtp.zoho.com'
 # EMAIL_HOST_USER = 'thomasadigun@gmail.com'
+# EMAIL_HOST_PASSWORD = 'to be added'
 
 ALLOWED_HOSTS = ['127.0.0.1', 'portfoliosiegfred.herokuapp.com']
 
