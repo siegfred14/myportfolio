@@ -4,7 +4,7 @@ from .models import Contact
 from django.http import HttpResponse
 
 # from django.core.mail import message, send_mail
-from django.conf import settings
+# from django.conf import settings
 
 
 # class HomeTemplateView(TemplateView):
