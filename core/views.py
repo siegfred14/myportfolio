@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .models import Contact
 from django.http import HttpResponse
 
-from django.core.mail import message, send_mail
+# from django.core.mail import message, send_mail
 from django.conf import settings
 
 
