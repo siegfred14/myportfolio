@@ -367,6 +367,10 @@ h6 {
   opacity: 0.5;
 }
 
+.welcome-text a:hover {
+  opacity: 0;
+}
+
 /*--- 4. Banner area css ends ---*/
 
 /*--- 5. About area css starts ---*/
