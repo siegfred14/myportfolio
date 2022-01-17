@@ -274,7 +274,7 @@ h6 {
 
 .navbar-custom .nav li a:hover {
   outline: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(7, 151, 247, 0.8);
   background-color: transparent;
 }
 
@@ -321,7 +321,7 @@ h6 {
 /*--- 4. Banner area css starts ---*/
 
 .banner-area {
-  height: 95vh;
+  height: 97vh;
   background: #222 url("../images/home/bg-home.png") no-repeat fixed 100% 100% /
     cover;
   padding: 0;
