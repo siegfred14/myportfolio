@@ -353,7 +353,7 @@ h6 {
 }
 
 .welcome-text a {
-  display: inline-block;
+  display: inline;
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
