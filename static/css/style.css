@@ -153,7 +153,7 @@ h6 {
   top: 60px;
   text-align: center;
   z-index: -1;
-  background: #0062ff65;
+  background: #0051ff65;
   margin-left: -40px;
 }
 
@@ -166,7 +166,7 @@ h6 {
   top: 53px;
   text-align: center;
   z-index: -1;
-  background: #0062ff65;
+  background: #0051ff65;
   margin-left: -7px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -197,7 +197,7 @@ h6 {
 .loader:before,
 .loader:after {
   content: "";
-  border: 1em solid #0062ff65;
+  border: 1em solid #0051ff65;
   border-radius: 50%;
   width: inherit;
   height: inherit;
@@ -242,7 +242,7 @@ h6 {
   font-size: 35px;
 }
 .navbar-custom .navbar-brand span {
-  color: #0062ff65;
+  color: #0051ff65;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -309,7 +309,7 @@ h6 {
   }
   .navbar-custom.top-nav-collapse .nav li.active a {
     background-color: transparent;
-    color: #0062ff65 !important;
+    color: #0051ff65 !important;
   }
   .navbar-custom.top-nav-collapse .navbar-brand {
     color: #fff;
@@ -357,7 +357,7 @@ h6 {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
-  background: #0062ff65;
+  background: #0051ff65;
   margin-top: 40px;
   width: 160px;
   border-radius: 30px;
@@ -377,7 +377,7 @@ h6 {
 
 .line {
   height: 2px;
-  background: #0062ff65;
+  background: #0051ff65;
   width: 200px;
 }
 
@@ -403,7 +403,7 @@ h6 {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
-  background: #0062ff65;
+  background: #0051ff65;
   margin-top: 20px;
   width: 160px;
   border-radius: 30px;
@@ -436,11 +436,11 @@ h6 {
 }
 
 .single-service:hover i {
-  color: #0062ff65;
+  color: #0051ff65;
   padding: 0;
 }
 .single-service:hover h2 {
-  color: #0062ff65;
+  color: #0051ff65;
 }
 
 /*--- 6. services area ends ---*/
@@ -627,7 +627,7 @@ h6 {
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
-  background: #0062ff65;
+  background: #0051ff65;
   margin-top: 20px;
   border-radius: 30px;
   margin-left: 5px;
@@ -692,7 +692,7 @@ h6 {
 }
 
 /* .btn.btn-send {
-  background: #0062ff65;
+  background: #0051ff65;
   color: #ffffff;
   border-radius: 25px;
   padding: 15px 20px;
@@ -712,7 +712,7 @@ h6 {
   color: #ffffff;
 }
 .footer-area p a {
-  color: #0062ff65;
+  color: #0051ff65;
 }
 
 /*--------------- Footer area ends -------------*/
