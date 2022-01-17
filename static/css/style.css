@@ -321,7 +321,7 @@ h6 {
 /*--- 4. Banner area css starts ---*/
 
 .banner-area {
-  height: 100vh;
+  height: 95vh;
   background: #222 url("../images/home/bg-home.png") no-repeat fixed 100% 100% /
     cover;
   padding: 0;
@@ -368,7 +368,7 @@ h6 {
 }
 
 .welcome-text a:hover {
-  opacity: 0;
+  opacity: 1;
 }
 
 /*--- 4. Banner area css ends ---*/
