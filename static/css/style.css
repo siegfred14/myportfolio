@@ -1,6 +1,7 @@
 /*
 Table of content
 
+0. Scrollbar
 1. Default css
 2. Preloader css
 3. Navbar css
@@ -14,6 +15,29 @@ Table of content
 11. Footer area css
 
 */
+
+/* 0. Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* display: none; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0051ff65;
+  border-radius: 3.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #03153b65;
+}
 
 /*--- 1. Default CSS Starts ---*/
 
@@ -321,7 +345,7 @@ h6 {
 /*--- 4. Banner area css starts ---*/
 
 .banner-area {
-  height: 97vh;
+  height: 99vh;
   background: #222 url("../images/home/bg-home.png") no-repeat fixed 100% 100% /
     cover;
   padding: 0;
