@@ -334,7 +334,7 @@ h6 {
   }
   .navbar-custom.top-nav-collapse .nav li.active a {
     background-color: transparent;
-    color: #0051ff65 !important;
+    color: rgba(7, 151, 247, 0.8) !important;
   }
   .navbar-custom.top-nav-collapse .navbar-brand {
     color: #fff;
