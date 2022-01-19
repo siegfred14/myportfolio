@@ -31,14 +31,12 @@ Table of content
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #0051ff65;
-  opacity: 0.5;
   border-radius: 3.5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0051ff65;
-  opacity: 1;
+  background: #002fffd0;
 }
 
 /*--- 1. Default CSS Starts ---*/
