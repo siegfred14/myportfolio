@@ -32,11 +32,13 @@ Table of content
 ::-webkit-scrollbar-thumb {
   background: #0051ff65;
   border-radius: 3.5px;
+  transition: 0.5s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #002fffd0;
+  transition: 0.5s;
 }
 
 /*--- 1. Default CSS Starts ---*/
