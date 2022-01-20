@@ -347,7 +347,7 @@ h6 {
 /*--- 4. Banner area css starts ---*/
 
 .banner-area {
-  height: 99vh;
+  height: 100vh;
   background: #222 url("../images/home/bg-home.png") no-repeat fixed 100% 100% /
     cover;
   padding: 0;
