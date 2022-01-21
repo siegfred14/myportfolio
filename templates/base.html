@@ -1,53 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Siegfred Samson's Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     {% include 'includes/stylesheets.html' %}
-</head>
-<body>
+  </head>
+  <body>
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
 
-<div class="loader_bg">
-    <div class="loader"></div>
-</div>
-
-<nav class="navbar navbar-custom navbar-fixed-top">
-    <div class="container">
+    <nav class="navbar navbar-custom navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
-            <a class="navbar-brand page-scroll" href="/">SamsonSiegfred<span>.</span> </a>
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-main-collapse"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand page-scroll" href="/"
+            >SamsonSiegfred<span>.</span>
+          </a>
         </div>
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
-                <li><a class="smooth-menu" href="#about">About</a></li>
-                <li><a class="smooth-menu" href="#services">Experience</a></li>
-                <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
-                <li><a class="smooth-menu" href="#skills">Skills</a></li>
-                <li><a class="smooth-menu" href="#contact">Contact</a></li>
-            </ul>
+          <ul class="nav navbar-nav">
+            <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
+            <li><a class="smooth-menu" href="#about">About</a></li>
+            <li><a class="smooth-menu" href="#services">Experience</a></li>
+            <li><a class="smooth-menu" href="#portfolio">Portfolio</a></li>
+            <li><a class="smooth-menu" href="#skills">Skills</a></li>
+            <li><a class="smooth-menu" href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-{% block content %}{% endblock %}
+    {% block content %}{% endblock %}
 
-<div class="footer-area">
-    <div class="container">
+    <div class="footer-area">
+      <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                <p>siegfred&copy;Copyright 2021</p>
-            </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <p>siegfred&copy;Copyright 2021</p>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-{% include 'includes/scripts.html' %}
-</body>
+    {% include 'includes/scripts.html' %}
+  </body>
 </html>
