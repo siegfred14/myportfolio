@@ -431,6 +431,7 @@ h6 {
   text-transform: uppercase;
   background: #002fffa4;
   margin-top: 20px;
+  width: 30%;
   border-radius: 30px;
   margin-left: 5px;
   margin-right: 5px;
@@ -662,6 +663,10 @@ h6 {
   margin-left: 5px;
   margin-right: 5px;
   font-size: 14px;
+}
+
+.single-invite a:hover {
+  color: none;
 }
 
 /*--- invitation area ends ---*/
