@@ -1,3 +1,4 @@
+from django.http import response
 from django.http.response import HttpResponse
 from django.shortcuts import render
 from .models import Contact
@@ -23,6 +24,19 @@ import os
 #         context['portfolio'] = WorkExperience.objects.all()
 #         # context['contact'] = Contact.objects.all()
 #         return context
+
+def downloadfile(request):
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    filename = 'ResumeDeSiegfred.pdf'
+    filepath = base_dir + '/files/' + filename
+    thefile = filepath
+    filename = os.path.basename(thefile)
+    chunk_size = 8192
+    response = StreamingHttpResponse(FileWrapper(
+        open(thefile, 'rb'), chunk_size), content_type=mimetypes.guess_type(thefile[0]))
+    response['Content-Length'] = os.path.getsize(thefile)
+    response['Content-Disposition'] = "Attachment;filename=%s" % filename
+    return response
 
 
 def home(request):
