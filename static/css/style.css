@@ -700,10 +700,33 @@ h6 {
 }
 
 .skills .progress-bar {
-  width: 50%;
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
+}
+
+.skills .progress-bar .progress-html {
+  width: 96%;
+}
+
+.skills .progress-bar .progress-css {
+  width: 70%;
+}
+
+.skills .progress-bar .progress-javascript {
+  width: 70%;
+}
+
+.skills .progress-bar .progress-git {
+  width: 80%;
+}
+
+.skills .progress-bar .progress-python {
+  width: 80%;
+}
+
+.skills .progress-bar .progress-django {
+  width: 60%;
 }
 
 /*-------------10. Contact area css starts -------------*/
