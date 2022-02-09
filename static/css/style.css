@@ -705,6 +705,30 @@ h6 {
   background-color: #0563bb;
 }
 
+.skills .progress-soft1 {
+  width: 95%;
+}
+
+.skills .progress-soft2 {
+  width: 88%;
+}
+
+.skills .progress-soft3 {
+  width: 90%;
+}
+
+.skills .progress-soft4 {
+  width: 82%;
+}
+
+.skills .progress-soft5 {
+  width: 74%;
+}
+
+.skills .progress-soft6 {
+  width: 67%;
+}
+
 .skills .progress-html {
   width: 96%;
 }
